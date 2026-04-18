@@ -1,4 +1,4 @@
-# Intégration — Agent générique
+# Intégration - Agent générique
 
 Ce guide s'applique à n'importe quel assistant IA qui accepte un
 **prompt système** ou un **fichier d'instructions persistant** :
@@ -33,7 +33,7 @@ injecte le protocole.
 Selon l'outil, tu peux :
 
 - **Raccourcir** le protocole si la fenêtre de prompt est limitée
-  (mais ne jamais retirer les sections 3, 5, 6 — protocole de début,
+  (mais ne jamais retirer les sections 3, 5, 6 - protocole de début,
   distinction repo/prod/validation, mise à jour du maître).
 - **Traduire** le protocole dans une autre langue si l'utilisateur
   ne travaille pas en français.

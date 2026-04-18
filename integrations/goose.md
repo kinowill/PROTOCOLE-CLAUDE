@@ -1,4 +1,4 @@
-# Intégration — Goose
+# Intégration - Goose
 
 ## Principe
 

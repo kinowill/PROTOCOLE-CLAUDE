@@ -1,11 +1,11 @@
 # Changelog
 
-## v1.1 — 2026-04-09
+## v1.1 - 2026-04-09
 
 Ajout de l'auto-monitoring du contexte de l'IA.
 
 ### Ajouts
-- `PROTOCOLE.md` : nouvelle **section 12 — Auto-monitoring du contexte**.
+- `PROTOCOLE.md` : nouvelle **section 12 - Auto-monitoring du contexte**.
   L'IA doit s'auto-vérifier sur sa consommation de tokens avant toute
   grosse tâche, avec des seuils d'action explicites (50 / 75 / 90 %).
   L'ancienne section 12 « Pourquoi ce protocole tient » est renumérotée 13.
@@ -23,16 +23,16 @@ Ajout de l'auto-monitoring du contexte de l'IA.
 - Le chiffre lu correspond à l'état au tour précédent de la session
   (le tour courant n'est pas encore flushé dans le `.jsonl`).
 
-## v1.0 — 2026-04-07
+## v1.0 - 2026-04-07
 
 Première version stable du protocole, extraite et généralisée à partir
 du protocole opérationnel utilisé sur le projet Lucide.
 
 ### Contenu initial
-- `PROTOCOLE.md` — protocole canonique en 12 sections
-- `templates/` — squelettes de document maître, roadmap, journal de validation
-- `integrations/` — instructions d'intégration pour Claude Code, Goose et agents génériques
-- `README.md` — guide d'usage du dossier
+- `PROTOCOLE.md` - protocole canonique en 12 sections
+- `templates/` - squelettes de document maître, roadmap, journal de validation
+- `integrations/` - instructions d'intégration pour Claude Code, Goose et agents génériques
+- `README.md` - guide d'usage du dossier
 
 ### Principes consolidés
 - Création obligatoire du document maître si absent en début de session

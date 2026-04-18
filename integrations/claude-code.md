@@ -1,4 +1,4 @@
-# Intégration — Claude Code
+# Intégration - Claude Code
 
 ## Principe
 
@@ -12,7 +12,7 @@ deux endroits :
 
 Le protocole peut vivre aux deux niveaux selon ton besoin.
 
-## Option A — Protocole global (recommandé)
+## Option A - Protocole global (recommandé)
 
 Tu copies le contenu de `PROTOCOLE.md` (ce dossier) dans
 `~/.claude/CLAUDE.md`. Toutes tes sessions Claude Code, sur n'importe
@@ -25,13 +25,13 @@ Avantages :
 Inconvénients :
 - pas d'adaptation par projet (langue, stack, contraintes spécifiques)
 
-## Option B — Protocole par projet
+## Option B - Protocole par projet
 
 Tu copies `PROTOCOLE.md` dans le `CLAUDE.md` à la racine du projet,
 et tu y ajoutes en haut une section spécifique au projet :
 
 ```markdown
-# CLAUDE.md — [NOM DU PROJET]
+# CLAUDE.md - [NOM DU PROJET]
 
 ## Spécificités projet
 
@@ -52,7 +52,7 @@ Avantages :
 - adaptation fine par projet
 - tout est versionné dans le repo du projet (donc partageable)
 
-## Option C — Hybride (le plus puissant)
+## Option C - Hybride (le plus puissant)
 
 - Le protocole générique vit en global dans `~/.claude/CLAUDE.md`
 - Chaque projet a un `CLAUDE.md` court qui ne contient **que les
@@ -71,7 +71,7 @@ Pour vérifier que le protocole est bien actif :
 3. Claude doit te proposer de **créer le document maître avant de répondre**.
    Si ce n'est pas le cas, le protocole n'est pas chargé.
 
-## Cas particulier — multi-machines
+## Cas particulier - multi-machines
 
 `~/.claude/CLAUDE.md` n'est pas synchronisé automatiquement entre
 machines. Si tu utilises Claude Code sur plusieurs ordinateurs, garde
@@ -93,14 +93,14 @@ cours, le total prompt et son pourcentage de la fenêtre.
 > uniquement**. Sur macOS / Linux, il faudra le porter (les `.jsonl`
 > de Claude Code se trouvent dans `~/.claude/projects/<projet>/`).
 
-### Étape 1 — Repérer le chemin local de ton clone
+### Étape 1 - Repérer le chemin local de ton clone
 
 Note l'emplacement où tu as cloné ce repo, par exemple :
 - Windows : `C:\Users\<toi>\dev\PROTOCOLE`
 - macOS / Linux : `~/dev/PROTOCOLE` (le script ne marchera pas tel quel,
   voir limite ci-dessus)
 
-### Étape 2 — Coller ce bloc dans `~/.claude/CLAUDE.md`
+### Étape 2 - Coller ce bloc dans `~/.claude/CLAUDE.md`
 
 Ajoute ce bloc à la fin de ton `CLAUDE.md` (global ou projet, selon ta
 config). **Remplace `<CHEMIN_VERS_TON_CLONE>`** par ton chemin réel.
@@ -123,7 +123,7 @@ Le chiffre lu = état au **tour précédent** (le tour courant n'est pas encore 
 Détails complets : section 12 de `PROTOCOLE.md` (repo : github.com/kinowill/PROTOCOLE).
 ```
 
-### Étape 3 — Vérifier que ton Claude le voit
+### Étape 3 - Vérifier que ton Claude le voit
 
 Dans une nouvelle session Claude Code, demande simplement :
 > « Combien de tokens reste-t-il dans ma fenêtre de contexte ? »
